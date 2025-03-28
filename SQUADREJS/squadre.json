@@ -1,0 +1,27 @@
+[
+    {
+      "id": "1",
+      "nome": "Inter",
+      "città": "Milano",
+      "stadio": "San Siro",
+      "fondazione": 1908,
+      "allenatore": "Simone Inzaghi"
+    },
+    {
+      "id": "2",
+      "nome": "Juventus",
+      "città": "Torino",
+      "stadio": "Allianz Stadium",
+      "fondazione": 1897,
+      "allenatore": "Massimiliano Allegri"
+    },
+    {
+      "id": "3",
+      "nome": "Napoli",
+      "città": "Napoli",
+      "stadio": "Diego Armando Maradona",
+      "fondazione": 1926,
+      "allenatore": "Francesco Calzona"
+    }
+  ]
+  

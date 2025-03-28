@@ -1,0 +1,14 @@
+doctype html
+html(lang="it")
+  head
+    meta(charset="UTF-8")
+    title= title
+    link(rel="stylesheet", href="/stylesheets/style.css")
+  body
+    header
+      h1= title
+    .container
+      ul
+        each squadra in squadre
+          li
+            a(href=`/squadre/squadra/${squadra.id}`)= squadra.nome

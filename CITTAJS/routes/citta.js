@@ -8,8 +8,8 @@ const dataPath = path.join(__dirname, '../citta.json');
 
 // Legge i dati delle squadre
 function getCities() {
-  const jsonData = fs.readFileSync(dataPath);
-  return JSON.parse(jsonData);
+  const jsonData = fs.readFileSync(dataPath); // Legge i dati delle squadre
+  return JSON.parse(jsonData);  // restituisce
 }
 
 

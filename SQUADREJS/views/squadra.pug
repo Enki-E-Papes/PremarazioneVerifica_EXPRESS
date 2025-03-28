@@ -1,0 +1,14 @@
+doctype html
+html(lang="it")
+  head
+    meta(charset="UTF-8")
+    title= squadra.nome
+    link(rel="stylesheet", href="/stylesheets/style.css")
+  body
+    .squadra-details
+      h2= squadra.nome
+      p Città: #{squadra.città}
+      p Stadio: #{squadra.stadio}
+      p Anno di fondazione: #{squadra.fondazione}
+      p Allenatore: #{squadra.allenatore}
+      a.back-link(href="/squadre") ← Torna all'elenco squadre
