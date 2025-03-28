@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    header
+      h1= title
+    .container
+      ul
+        each citt in cities
+          li
+            a(href=`/citta/${citt.name}`)= citt.name

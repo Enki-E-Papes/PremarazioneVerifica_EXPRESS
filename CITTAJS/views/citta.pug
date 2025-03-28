@@ -1,0 +1,16 @@
+doctype html
+html(lang="it")
+  head
+    meta(charset="UTF-8")
+    title= cittas.nome
+    link(rel="stylesheet", href="/stylesheets/style.css")
+  body
+    .squadra-details
+      h2= cittas.name
+      p Country: #{cittas.country}
+      p Population: #{cittas.population}
+      p Language: #{cittas.language}
+      ul 
+        each monumento in cittas.famous_for
+          p #{monumento}
+      a.back-link(href="/citta") ← Torna all'elenco città

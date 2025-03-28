@@ -1,0 +1,47 @@
+[
+    {
+      "name": "Parigi",
+      "country": "Francia",
+      "population": 2148327,
+      "coordinates": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      },
+      "language": "Francese",
+      "famous_for": [
+        "Torre Eiffel",
+        "Louvre",
+        "Cattedrale di Notre-Dame"
+      ]
+    },
+    {
+      "name": "Roma",
+      "country": "Italia",
+      "population": 2872800,
+      "coordinates": {
+        "latitude": 41.9028,
+        "longitude": 12.4964
+      },
+      "language": "Italiano",
+      "famous_for": [
+        "Colosseo",
+        "Foro Romano",
+        "Vaticano"
+      ]
+    },
+    {
+      "name": "Barcellona",
+      "country": "Spagna",
+      "population": 1620343,
+      "coordinates": {
+        "latitude": 41.3784,
+        "longitude": 2.1925
+      },
+      "language": "Spagnolo",
+      "famous_for": [
+        "Sagrada Familia",
+        "Parc Güell",
+        "Casa Batlló"
+      ]
+    }
+]
